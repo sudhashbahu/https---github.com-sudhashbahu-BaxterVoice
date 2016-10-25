@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.acn.baxter.remotecommand"
+    versionCode = "12"
+    version     = "1.0.0" >
+
+     <!-- versionCode is optional and Android only -->
+
+     <name>Baxter Voice Control</name>
+
+     <description>
+          Application to control Baxter robot via voice commands on Android phones
+     </description>
+
+     <author>
+          Rupesh Kaslay - Accenture
+     </author>
+
+     <preference name="permissions" value="none"/>
+
+     <preference name="Fullscreen" value="true" />
+     <preference name="Orientation" value="portrait" />
+     <preference name="DisallowOverscroll" value="true"/>
+     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+
+  <gap:plugin name="com.tlantic.plugins.ssh" />
+  
+  <icon src="icon.png" />
+</widget>
